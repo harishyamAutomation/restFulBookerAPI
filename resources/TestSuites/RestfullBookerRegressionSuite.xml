@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Regression Suite">
+	<listeners>
+		<listener class-name="utils.RetryListener"></listener>
+	</listeners>
+	<test name="RestAPI : Regression Test Cases">
+		<classes>
+			<class name="restFullBooker.RestFullBookerTest"></class>
+		</classes>
+	</test>
+</suite>

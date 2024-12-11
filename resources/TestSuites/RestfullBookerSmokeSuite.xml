@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Smoke Suite">
+	<listeners>
+		<listener class-name="utils.RetryListener"></listener>
+	</listeners>
+	<test name="RestAPI : Smoke Test Cases">
+		<groups>
+			<run>
+				<include name="SmokeSuite"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="restFullBooker.RestFullBookerTest"></class>
+		</classes>
+	</test>
+</suite>
