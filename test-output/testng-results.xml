@@ -2,15 +2,15 @@
 <testng-results retried="2" ignored="0" total="12" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T03:01:18 IST" name="Automation Regression Suite" finished-at="2024-12-12T03:01:37 IST" duration-ms="19038">
+  <suite started-at="2025-03-06T03:19:54 IST" name="Automation Regression Suite" finished-at="2025-03-06T03:20:16 IST" duration-ms="22217">
     <groups>
       <group name="SmokeSuite">
-        <method signature="RestFullBookerTest.pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@537f60bf]" name="pingServerForHealthCheck" class="restFullBooker.RestFullBookerTest"/>
+        <method signature="RestFullBookerTest.pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@1a942c18]" name="pingServerForHealthCheck" class="restFullBooker.RestFullBookerTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2024-12-12T03:01:18 IST" name="RestAPI : Regression Test Cases" finished-at="2024-12-12T03:01:37 IST" duration-ms="19038">
+    <test started-at="2025-03-06T03:19:54 IST" name="RestAPI : Regression Test Cases" finished-at="2025-03-06T03:20:16 IST" duration-ms="22217">
       <class name="restFullBooker.RestFullBookerTest">
-        <test-method is-config="true" signature="config(java.lang.String,java.lang.String)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:17 IST" name="config" finished-at="2024-12-12T03:01:18 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="config(java.lang.String,java.lang.String)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:53 IST" name="config" finished-at="2025-03-06T03:19:54 IST" duration-ms="1069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:18 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:18 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:54 IST" name="logBeforeMethod" finished-at="2025-03-06T03:19:54 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,26 +37,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method signature="pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:18 IST" name="pingServerForHealthCheck" description="RB_01 : Test to validate the Healthcheck point for the API." finished-at="2024-12-12T03:01:21 IST" duration-ms="3177" status="PASS">
+        <test-method signature="pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:54 IST" name="pingServerForHealthCheck" description="RB_01 : Test to validate the Healthcheck point for the API." finished-at="2025-03-06T03:19:59 IST" duration-ms="5177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pingServerForHealthCheck -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:21 IST" name="getResult" finished-at="2024-12-12T03:01:21 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:59 IST" name="getResult" finished-at="2025-03-06T03:19:59 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=pingServerForHealthCheck status=SUCCESS method=RestFullBookerTest.pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=pingServerForHealthCheck status=SUCCESS method=RestFullBookerTest.pingServerForHealthCheck()[pri:1, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="getAuthToken()[pri:2, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:21 IST" name="getAuthToken" description="RB_02 : Test to create new auth token for booking" finished-at="2024-12-12T03:01:23 IST" duration-ms="1735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAuthToken -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:21 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:59 IST" name="logBeforeMethod" finished-at="2025-03-06T03:19:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,18 +63,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:23 IST" name="getResult" finished-at="2024-12-12T03:01:23 IST" duration-ms="1" status="PASS">
+        <test-method signature="getAuthToken()[pri:2, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:19:59 IST" name="getAuthToken" description="RB_02 : Test to create new auth token for booking" finished-at="2025-03-06T03:20:01 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthToken -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:01 IST" name="getResult" finished-at="2025-03-06T03:20:01 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getAuthToken status=SUCCESS method=RestFullBookerTest.getAuthToken()[pri:2, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=getAuthToken status=SUCCESS method=RestFullBookerTest.getAuthToken()[pri:2, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:23 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:01 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:01 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,26 +89,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method signature="fetchAllBookingIDs()[pri:3, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:23 IST" name="fetchAllBookingIDs" description="RB_03 : Test to fetch all the booking IDs" finished-at="2024-12-12T03:01:24 IST" duration-ms="1397" status="PASS">
+        <test-method signature="fetchAllBookingIDs()[pri:3, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:01 IST" name="fetchAllBookingIDs" description="RB_03 : Test to fetch all the booking IDs" finished-at="2025-03-06T03:20:03 IST" duration-ms="1713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchAllBookingIDs -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:24 IST" name="getResult" finished-at="2024-12-12T03:01:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:03 IST" name="getResult" finished-at="2025-03-06T03:20:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fetchAllBookingIDs status=SUCCESS method=RestFullBookerTest.fetchAllBookingIDs()[pri:3, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=fetchAllBookingIDs status=SUCCESS method=RestFullBookerTest.fetchAllBookingIDs()[pri:3, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="createNewBooking()[pri:4, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:24 IST" name="createNewBooking" description="RB_07 : Test to validate to create New Booking with Content-Type : application/json" finished-at="2024-12-12T03:01:26 IST" duration-ms="1402" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewBooking -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:24 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:24 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:03 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,18 +115,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:26 IST" name="getResult" finished-at="2024-12-12T03:01:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="createNewBooking()[pri:4, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:03 IST" name="createNewBooking" description="RB_07 : Test to validate to create New Booking with Content-Type : application/json" finished-at="2025-03-06T03:20:04 IST" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBooking -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:04 IST" name="getResult" finished-at="2025-03-06T03:20:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createNewBooking status=SUCCESS method=RestFullBookerTest.createNewBooking()[pri:4, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=createNewBooking status=SUCCESS method=RestFullBookerTest.createNewBooking()[pri:4, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:26 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:04 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,26 +141,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method signature="fetchCustomerDetailByID()[pri:5, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:26 IST" name="fetchCustomerDetailByID" description="RB_06 : Test to fetch the customer detail by booking ID" finished-at="2024-12-12T03:01:27 IST" duration-ms="1397" status="PASS">
+        <test-method signature="fetchCustomerDetailByID()[pri:5, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:04 IST" name="fetchCustomerDetailByID" description="RB_06 : Test to fetch the customer detail by booking ID" finished-at="2025-03-06T03:20:06 IST" duration-ms="1419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchCustomerDetailByID -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:27 IST" name="getResult" finished-at="2024-12-12T03:01:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:06 IST" name="getResult" finished-at="2025-03-06T03:20:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fetchCustomerDetailByID status=SUCCESS method=RestFullBookerTest.fetchCustomerDetailByID()[pri:5, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=fetchCustomerDetailByID status=SUCCESS method=RestFullBookerTest.fetchCustomerDetailByID()[pri:5, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="filterBookingIDsByName()[pri:6, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:27 IST" name="filterBookingIDsByName" description="RB_04 : Test to fetch all the booking IDs filtered by first &amp; last name" finished-at="2024-12-12T03:01:28 IST" duration-ms="1441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterBookingIDsByName -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:27 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:06 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,18 +167,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:28 IST" name="getResult" finished-at="2024-12-12T03:01:28 IST" duration-ms="1" status="PASS">
+        <test-method signature="filterBookingIDsByName()[pri:6, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:06 IST" name="filterBookingIDsByName" description="RB_04 : Test to fetch all the booking IDs filtered by first &amp; last name" finished-at="2025-03-06T03:20:07 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterBookingIDsByName -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:07 IST" name="getResult" finished-at="2025-03-06T03:20:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=filterBookingIDsByName status=SUCCESS method=RestFullBookerTest.filterBookingIDsByName()[pri:6, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=filterBookingIDsByName status=SUCCESS method=RestFullBookerTest.filterBookingIDsByName()[pri:6, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:28 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:28 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:07 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method retried="true" signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:28 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2024-12-12T03:01:30 IST" duration-ms="1401" status="SKIP">
+        <test-method retried="true" signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:07 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2025-03-06T03:20:09 IST" duration-ms="1476" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -240,18 +240,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterBookingIDsByCheckInOutDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:30 IST" name="getResult" finished-at="2024-12-12T03:01:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:09 IST" name="getResult" finished-at="2025-03-06T03:20:09 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=SKIP method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=SKIP method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method retried="true" signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:30 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2024-12-12T03:01:31 IST" duration-ms="1358" status="SKIP">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:09 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void restFullBooker.RestFullBookerTest.filterBookingIDsByCheckInOutDate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBeforeMethod -->
+        <test-method retried="true" signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:09 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2025-03-06T03:20:10 IST" duration-ms="1340" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -298,7 +309,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterBookingIDsByCheckInOutDate -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:30 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:10 IST" name="getResult" finished-at="2025-03-06T03:20:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=SKIP method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:10 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:10 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,18 +331,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:31 IST" name="getResult" finished-at="2024-12-12T03:01:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=SKIP method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:31 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2024-12-12T03:01:33 IST" duration-ms="1384" status="FAIL">
+        <test-method signature="filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:10 IST" name="filterBookingIDsByCheckInOutDate" description="RB_05 : Test to fetch all the booking IDs filtered by checkIn &amp; checkOut Dates" finished-at="2025-03-06T03:20:12 IST" duration-ms="1442" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -367,33 +378,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterBookingIDsByCheckInOutDate -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:31 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:12 IST" name="getResult" finished-at="2025-03-06T03:20:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void restFullBooker.RestFullBookerTest.filterBookingIDsByCheckInOutDate()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:33 IST" name="getResult" finished-at="2024-12-12T03:01:33 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=FAILURE method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=filterBookingIDsByCheckInOutDate status=FAILURE method=RestFullBookerTest.filterBookingIDsByCheckInOutDate()[pri:7, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="updateCurrentBookingPUT()[pri:8, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:33 IST" name="updateCurrentBookingPUT" description="RB_08 : Test to validate to update the current Booking with Content-Type : application/json" finished-at="2024-12-12T03:01:34 IST" duration-ms="1433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateCurrentBookingPUT -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:33 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:12 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:12 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -404,18 +400,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:34 IST" name="getResult" finished-at="2024-12-12T03:01:34 IST" duration-ms="1" status="PASS">
+        <test-method signature="updateCurrentBookingPUT()[pri:8, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:12 IST" name="updateCurrentBookingPUT" description="RB_08 : Test to validate to update the current Booking with Content-Type : application/json" finished-at="2025-03-06T03:20:13 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCurrentBookingPUT -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:13 IST" name="getResult" finished-at="2025-03-06T03:20:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=updateCurrentBookingPUT status=SUCCESS method=RestFullBookerTest.updateCurrentBookingPUT()[pri:8, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=updateCurrentBookingPUT status=SUCCESS method=RestFullBookerTest.updateCurrentBookingPUT()[pri:8, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:34 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:34 IST" duration-ms="1" status="PASS">
+        <test-method signature="updateCurrentBookingPATCH()[pri:9, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:13 IST" name="updateCurrentBookingPATCH" description="RB_09 : Test to validate to update the current Booking partially with Content-Type : application/json" finished-at="2025-03-06T03:20:15 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCurrentBookingPATCH -->
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:13 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:13 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -426,22 +430,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method signature="updateCurrentBookingPATCH()[pri:9, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:34 IST" name="updateCurrentBookingPATCH" description="RB_09 : Test to validate to update the current Booking partially with Content-Type : application/json" finished-at="2024-12-12T03:01:35 IST" duration-ms="1350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateCurrentBookingPATCH -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:35 IST" name="getResult" finished-at="2024-12-12T03:01:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:15 IST" name="getResult" finished-at="2025-03-06T03:20:15 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=updateCurrentBookingPATCH status=SUCCESS method=RestFullBookerTest.updateCurrentBookingPATCH()[pri:9, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=updateCurrentBookingPATCH status=SUCCESS method=RestFullBookerTest.updateCurrentBookingPATCH()[pri:9, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:35 IST" name="logBeforeMethod" finished-at="2024-12-12T03:01:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logBeforeMethod(java.lang.reflect.Method)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:15 IST" name="logBeforeMethod" finished-at="2025-03-06T03:20:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,22 +452,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBeforeMethod -->
-        <test-method signature="deletecurrentBooking()[pri:10, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:35 IST" name="deletecurrentBooking" description="RB_10 : Test validate to delete specifig booking" finished-at="2024-12-12T03:01:37 IST" duration-ms="1424" status="PASS">
+        <test-method signature="deletecurrentBooking()[pri:10, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:15 IST" name="deletecurrentBooking" description="RB_10 : Test validate to delete specifig booking" finished-at="2025-03-06T03:20:16 IST" duration-ms="1447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletecurrentBooking -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:37 IST" name="getResult" finished-at="2024-12-12T03:01:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:16 IST" name="getResult" finished-at="2025-03-06T03:20:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deletecurrentBooking status=SUCCESS method=RestFullBookerTest.deletecurrentBooking()[pri:10, instance:restFullBooker.RestFullBookerTest@537f60bf] output={null}]]]>
+                <![CDATA[[TestResult name=deletecurrentBooking status=SUCCESS method=RestFullBookerTest.deletecurrentBooking()[pri:10, instance:restFullBooker.RestFullBookerTest@1a942c18] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:restFullBooker.RestFullBookerTest@537f60bf]" started-at="2024-12-12T03:01:37 IST" name="endReport" finished-at="2024-12-12T03:01:37 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:restFullBooker.RestFullBookerTest@1a942c18]" started-at="2025-03-06T03:20:16 IST" name="endReport" finished-at="2025-03-06T03:20:17 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
