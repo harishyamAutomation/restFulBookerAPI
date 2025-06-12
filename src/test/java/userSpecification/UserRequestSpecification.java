@@ -54,6 +54,8 @@ public class UserRequestSpecification {
 		return requestSpecification;
 	}
 	
+	/** Request Specification - Pull Review **/
+	
 	public RequestSpecification getRequestSpecification(String uri, Map<String, String> headers, Map<String, String> queryParam) {
 		requestSpecification = new RequestSpecBuilder()
 				.setBaseUri(uri)
